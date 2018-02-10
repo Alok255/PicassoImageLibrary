@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:background="@android:color/holo_red_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.image.picasso.picassoimage.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="393dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/default_opt" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Drawable "
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn2"
+        app:layout_editor_absoluteX="10dp"
+        app:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="115dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:text="Placeholder"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_editor_absoluteX="60dp"
+        app:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Load Ulr"
+        app:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/main_activity"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/main_activity"
+        app:layout_editor_absoluteX="307dp"
+        app:layout_editor_absoluteY="538dp"
+        tools:layout_constraintBottom_creator="0"
+        tools:layout_constraintRight_creator="0" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Error"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CallBack"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:text="Resize"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn4" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginLeft="296dp"
+        android:text="Rotate"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="@+id/btn4"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Scale"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn6"
+        app:layout_constraintTop_toBottomOf="@+id/iv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:text="Targets"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn7" />
+</android.support.constraint.ConstraintLayout>
