@@ -13,8 +13,8 @@ downloading an image from server and create automatic memory and disk caching.
   1.Add Picasso Library in "build.gradle"
       
       dependencies {
-   compile "com.squareup.picasso:picasso:2.4.0"
-    }
+    compile "com.squareup.picasso:picasso:2.4.0"
+       }
      
   2.And sync your project.
   
@@ -30,7 +30,6 @@ downloading an image from server and create automatic memory and disk caching.
    
         <uses-permission android:name="android.permission.INTERNET"/>
 
-
-
-
-
+5.
+  ![alt text](https://github.com/Alok255/PicassoImageLibrary/blob/master/picasso_library.jpeg?raw=true)
+    
