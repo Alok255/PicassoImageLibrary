@@ -30,6 +30,7 @@ downloading an image from server and create automatic memory and disk caching.
    
         <uses-permission android:name="android.permission.INTERNET"/>
 
-5.
-  ![alt text](https://github.com/Alok255/PicassoImageLibrary/blob/master/picasso_library.jpeg?raw=true)
-    
+5.Screenshot
+  <p align="center">
+  <img src="https://github.com/Alok255/PicassoImageLibrary/blob/master/picasso_library.jpeg?raw=true" width="350"/>
+</p>
