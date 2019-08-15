@@ -4,16 +4,24 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
+
 import android.view.View;
+
+
 import android.widget.Button;
+
 import android.widget.ImageView;
+
 import android.widget.Toast;
 
 import com.squareup.picasso.Callback;
-import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
+import com.squareup.picasso.Picasso;
+
+import com.squareup.picasso.Target;
+//Alok Raj Singh
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ImageView iv;
     int i = 0;
